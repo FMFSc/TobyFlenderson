@@ -53,5 +53,12 @@ public class Employee
     }
     
     
+    @Override
+    public String toString()
+    {
+        return ("Employee info: " + this.employeeName + ", has the employee ID: "  + this.ID  + ", and makes CA$ "  + this.salary + " per month.");
+    }
+    
+    
         
 }
