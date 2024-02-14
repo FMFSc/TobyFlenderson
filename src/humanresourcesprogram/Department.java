@@ -7,6 +7,7 @@ package humanresourcesprogram;
 public class Department
 {
     private String deptName;
+    private Employee[] employees;
     
     
 //Getter and Setter for the department name, deptName.
@@ -29,8 +30,13 @@ public class Department
         this.deptName = deptName;
     }
     
-    
-    
-    
-
+    /**
+     * @Override method, replacing the Object class method.
+     * @return 
+     */
+    @Override
+    public String toString()
+    {
+        return "Department name: " + deptName;        
+    }
 }
