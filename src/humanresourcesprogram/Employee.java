@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package humanresourcesprogram;
 
 /**
@@ -10,9 +6,9 @@ package humanresourcesprogram;
  */
 public class Employee 
 {
-    public int ID;
-    public String employeeName;
-    public double salary;
+    private int ID;
+    private String employeeName;
+    private double salary;
 
     
     //getters and setters, auto generated, no modifications.
@@ -46,7 +42,8 @@ public class Employee
      * @param employeeName: Employee name
      * @param salary: Employee's monthly salary
      */
-    public Employee(int ID, String employeeName, double salary) {
+    public Employee(int ID, String employeeName, double salary) 
+    {
         this.ID = ID;
         this.employeeName = employeeName;
         this.salary = salary;
